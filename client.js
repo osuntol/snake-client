@@ -1,4 +1,6 @@
+
 const net = require("net")
+
 const connect = function() {
 
   const conn = net.createConnection({
@@ -19,12 +21,12 @@ const connect = function() {
     console.log('you ded cuz you idled')
   })
 
- 
 
   conn.setEncoding('utf8')
 
   return conn
 }
+
 
 module.exports = {
   connect
