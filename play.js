@@ -1,4 +1,6 @@
 const net = require("net");
+const connection = require('./client.js')
+
 
 const connect =  function(){
  
