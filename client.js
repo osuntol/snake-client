@@ -8,7 +8,7 @@ const connect = function() {
 
   conn.on('connect', () => {
     console.log('welcome to the server!')
-    conn.write("Name: JR")
+    conn.write("Name: JR");
   })
 
   conn.on('data', (data) => {
